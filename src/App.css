@@ -1,0 +1,6 @@
+@import './components/library/Theme/Theme.css';
+
+.App {
+  text-align: center;
+  background-color: #403f3f;
+}

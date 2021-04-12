@@ -1,0 +1,23 @@
+.checkboxInput {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.checkboxInput:disabled {
+  opacity: 0.5;
+}
+
+.checkmark > svg {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--lavanda-primary)
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+}

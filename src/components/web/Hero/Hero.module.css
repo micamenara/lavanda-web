@@ -1,0 +1,33 @@
+.hero {
+  position: relative;
+}
+
+.heroContainer {
+  height: 500px;
+  width: 100%;
+}
+
+.heroCover {
+  position: absolute;
+  background: #655971b5;
+  height: 500px;
+  width: 100%;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.heroContent {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.heroContentTitle {
+  font-size: 48px;
+  font-weight: 400;
+}

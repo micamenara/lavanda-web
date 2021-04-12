@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Zilla+Slab:wght@400;500;600&display=swap");
+
+html {
+  /* Font */
+  --lavanda-font: "Zilla Slab", serif;
+  /* Colors */
+  --lavanda-gray1: #505050;
+
+  --lavanda-primary: #9973d6;
+  --lavanda-primary-text: #ffffff;
+
+  --lavanda-secondary: #c8bdd7;
+  --lavanda-secondary-text: #2a233b;
+
+
+  --lavanda-background: #252525;
+  --lavanda-text: #ffffff;
+
+  /* Inputs */
+  --lavanda-input-border: var(--lavanda-gray1);
+
+  --lavanda-input-label-inactive: var(--lavanda-gray1);
+  --lavanda-input-label-active: var(--lavanda-primary);
+
+  /* Card */
+
+  --lavanda-border: var(--lavanda-gray1);
+/* 
+  Colors
+  --lavanda-gray1: #c4c4c4;
+
+  --lavanda-primary: #d673c9;
+  --lavanda-primary-text: #ffffff;
+
+  --lavanda-secondary: #c8bdd7;
+  --lavanda-secondary-text: #2a233b;
+
+  --lavanda-background: #ffffff;
+  --lavanda-text: #242424;
+
+  Inputs
+  --lavanda-input-border: var(--lavanda-gray1);
+
+  --lavanda-input-label-inactive: var(--lavanda-gray1);
+  --lavanda-input-label-active: var(--lavanda-primary);
+
+  Card
+
+  --lavanda-border: var(--lavanda-gray1); */
+}
+
+body {
+  color: var(--lavanda-text);
+  background-color: var(--lavanda-background);
+  font-family: var(--lavanda-font);
+}
+
+a {
+  color: var(--lavanda-primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.alignItems {
+  align-items: center;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
